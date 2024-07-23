@@ -1,0 +1,56 @@
+[
+{
+  "directory": "E:/Doc/ProjectFiles/CPP/HuaRenderer/build",
+  "command": "E:\\Program\\MSYS64\\clang64\\bin\\clang++.exe -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/include -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/src -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/3rdparty/SDL2-2.30.4/x86_64-w64-mingw32/include -isystem E:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/3rdparty/SDL2-2.30.4/x86_64-w64-mingw32/include/SDL2  -O3 -g -std=gnu++20 -o renderer\\CMakeFiles\\HuaRenderer.dir\\src\\main.cpp.obj -c E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\src\\main.cpp",
+  "file": "E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\src\\main.cpp",
+  "output": "renderer\\CMakeFiles\\HuaRenderer.dir\\src\\main.cpp.obj"
+},
+{
+  "directory": "E:/Doc/ProjectFiles/CPP/HuaRenderer/build",
+  "command": "E:\\Program\\MSYS64\\clang64\\bin\\clang++.exe -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/include -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/src  -O3 -g -std=gnu++20 -o renderer\\src\\CoreLayer\\CMakeFiles\\CoreLayer.dir\\Model.cpp.obj -c E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\src\\CoreLayer\\Model.cpp",
+  "file": "E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\src\\CoreLayer\\Model.cpp",
+  "output": "renderer\\src\\CoreLayer\\CMakeFiles\\CoreLayer.dir\\Model.cpp.obj"
+},
+{
+  "directory": "E:/Doc/ProjectFiles/CPP/HuaRenderer/build",
+  "command": "E:\\Program\\MSYS64\\clang64\\bin\\clang++.exe -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/include -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/src  -O3 -g -std=gnu++20 -o renderer\\src\\CoreLayer\\CMakeFiles\\CoreLayer.dir\\TGAImage.cpp.obj -c E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\src\\CoreLayer\\TGAImage.cpp",
+  "file": "E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\src\\CoreLayer\\TGAImage.cpp",
+  "output": "renderer\\src\\CoreLayer\\CMakeFiles\\CoreLayer.dir\\TGAImage.cpp.obj"
+},
+{
+  "directory": "E:/Doc/ProjectFiles/CPP/HuaRenderer/build",
+  "command": "E:\\Program\\MSYS64\\clang64\\bin\\clang++.exe -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/include -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/src  -O3 -g -std=gnu++20 -o renderer\\src\\CoreLayer\\CMakeFiles\\CoreLayer.dir\\Texture.cpp.obj -c E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\src\\CoreLayer\\Texture.cpp",
+  "file": "E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\src\\CoreLayer\\Texture.cpp",
+  "output": "renderer\\src\\CoreLayer\\CMakeFiles\\CoreLayer.dir\\Texture.cpp.obj"
+},
+{
+  "directory": "E:/Doc/ProjectFiles/CPP/HuaRenderer/build",
+  "command": "E:\\Program\\MSYS64\\clang64\\bin\\clang++.exe -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/include -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/src -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/src/RenderingLayer/HuaRenderer  -O3 -g -std=gnu++20 -o renderer\\src\\RenderingLayer\\CMakeFiles\\RenderingLayer.dir\\SoftwareRasterizer\\Camera.cpp.obj -c E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\src\\RenderingLayer\\SoftwareRasterizer\\Camera.cpp",
+  "file": "E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\src\\RenderingLayer\\SoftwareRasterizer\\Camera.cpp",
+  "output": "renderer\\src\\RenderingLayer\\CMakeFiles\\RenderingLayer.dir\\SoftwareRasterizer\\Camera.cpp.obj"
+},
+{
+  "directory": "E:/Doc/ProjectFiles/CPP/HuaRenderer/build",
+  "command": "E:\\Program\\MSYS64\\clang64\\bin\\clang++.exe -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/include -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/src -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/src/RenderingLayer/HuaRenderer  -O3 -g -std=gnu++20 -o renderer\\src\\RenderingLayer\\CMakeFiles\\RenderingLayer.dir\\SoftwareRasterizer\\Renderer.cpp.obj -c E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\src\\RenderingLayer\\SoftwareRasterizer\\Renderer.cpp",
+  "file": "E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\src\\RenderingLayer\\SoftwareRasterizer\\Renderer.cpp",
+  "output": "renderer\\src\\RenderingLayer\\CMakeFiles\\RenderingLayer.dir\\SoftwareRasterizer\\Renderer.cpp.obj"
+},
+{
+  "directory": "E:/Doc/ProjectFiles/CPP/HuaRenderer/build",
+  "command": "E:\\Program\\MSYS64\\clang64\\bin\\clang++.exe -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/include -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/src -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/src/RenderingLayer/HuaRenderer  -O3 -g -std=gnu++20 -o renderer\\src\\RenderingLayer\\CMakeFiles\\RenderingLayer.dir\\SoftwareRasterizer\\Shader.cpp.obj -c E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\src\\RenderingLayer\\SoftwareRasterizer\\Shader.cpp",
+  "file": "E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\src\\RenderingLayer\\SoftwareRasterizer\\Shader.cpp",
+  "output": "renderer\\src\\RenderingLayer\\CMakeFiles\\RenderingLayer.dir\\SoftwareRasterizer\\Shader.cpp.obj"
+},
+{
+  "directory": "E:/Doc/ProjectFiles/CPP/HuaRenderer/build",
+  "command": "E:\\Program\\MSYS64\\clang64\\bin\\clang++.exe -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/include -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/src  -O3 -g -std=gnu++20 -o renderer\\src\\PresentationLayer\\CMakeFiles\\PresentationLayer.dir\\present.cpp.obj -c E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\src\\PresentationLayer\\present.cpp",
+  "file": "E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\src\\PresentationLayer\\present.cpp",
+  "output": "renderer\\src\\PresentationLayer\\CMakeFiles\\PresentationLayer.dir\\present.cpp.obj"
+},
+{
+  "directory": "E:/Doc/ProjectFiles/CPP/HuaRenderer/build",
+  "command": "E:\\Program\\MSYS64\\clang64\\bin\\clang++.exe -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/include -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/src -IE:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/test/HuaRenderer -isystem E:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/3rdparty/SDL2-2.30.4/x86_64-w64-mingw32/include/SDL2  -O3 -g -std=gnu++20 -o renderer\\test\\CMakeFiles\\test_SoftwareRasterizer.dir\\test_SoftwareRasterizer.cpp.obj -c E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\test\\test_SoftwareRasterizer.cpp",
+  "file": "E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\test\\test_SoftwareRasterizer.cpp",
+  "output": "renderer\\test\\CMakeFiles\\test_SoftwareRasterizer.dir\\test_SoftwareRasterizer.cpp.obj"
+}
+]

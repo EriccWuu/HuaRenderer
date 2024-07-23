@@ -1,0 +1,15 @@
+# ninja log v5
+1781	1933	7427980374924703	bin/test_SoftwareRasterizer.exe	50286a485b6bfbe3
+1776	1887	7427980374854673	bin/HuaRenderer.exe	d7a16b7749f044b
+19	1232	7427595873781294	renderer/src/RenderingLayer/CMakeFiles/RenderingLayer.dir/SoftwareRasterizer/Camera.cpp.obj	1e3d9f51d5d4d6f2
+75	273	7427595863081731	renderer/src/PresentationLayer/libPresentationLayer.a	b2e4e8bdda9f7b0a
+31	74	7427595862486883	renderer/src/PresentationLayer/CMakeFiles/PresentationLayer.dir/present.cpp.obj	d9c66aeb3d32a9f7
+2444	2531	7427595886850183	renderer/src/CoreLayer/libCoreLayer.a	811df0567b718be8
+8	2443	7427595886060596	renderer/src/CoreLayer/CMakeFiles/CoreLayer.dir/Model.cpp.obj	82e8b044791ae861
+12	1591	7427595877533358	renderer/src/CoreLayer/CMakeFiles/CoreLayer.dir/TGAImage.cpp.obj	d2bfd400777e9e36
+1695	1776	7427980373579234	renderer/src/RenderingLayer/libRenderingLayer.a	5f53f5f66bfb70d4
+28	1733	7427980373247709	renderer/test/CMakeFiles/test_SoftwareRasterizer.dir/test_SoftwareRasterizer.cpp.obj	e6e3b9a7b493fe78
+15	1542	7427595876992054	renderer/src/CoreLayer/CMakeFiles/CoreLayer.dir/Texture.cpp.obj	6b0e5841f7e5f4c1
+5	1227	7427595873434676	renderer/CMakeFiles/HuaRenderer.dir/src/main.cpp.obj	a0139e576ac276f
+24	1694	7427980372873197	renderer/src/RenderingLayer/CMakeFiles/RenderingLayer.dir/SoftwareRasterizer/Renderer.cpp.obj	1fa37a18ef361354
+28	1218	7427606657960009	renderer/src/RenderingLayer/CMakeFiles/RenderingLayer.dir/SoftwareRasterizer/Shader.cpp.obj	8c08c1e6e5129aeb

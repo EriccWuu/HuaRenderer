@@ -1,0 +1,208 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "renderer",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-renderer-Debug-747043422e6aba9381c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "renderer",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "renderer/3rdparty",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-renderer.3rdparty-Debug-4c22673682e208e2ef68.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "renderer/3rdparty"
+				},
+				{
+					"build" : "renderer/3rdparty/glm",
+					"jsonFile" : "directory-renderer.3rdparty.glm-Debug-f28ccbab69ba14e49682.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "renderer/3rdparty/glm"
+				},
+				{
+					"build" : "renderer/src/CoreLayer",
+					"jsonFile" : "directory-renderer.src.CoreLayer-Debug-b338645f9d49468f4577.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "renderer/src/CoreLayer",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "renderer/src/RenderingLayer",
+					"jsonFile" : "directory-renderer.src.RenderingLayer-Debug-02c84a79ff8e23ae4f5c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "renderer/src/RenderingLayer",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "renderer/src/PresentationLayer",
+					"jsonFile" : "directory-renderer.src.PresentationLayer-Debug-ca45390a32750a8d3165.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "renderer/src/PresentationLayer",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "renderer/test",
+					"jsonFile" : "directory-renderer.test-Debug-9cc108d6f0300e3065dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "renderer/test",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "HuaRenderer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "CoreLayer::@1fb3b23c8a770eb28075",
+					"jsonFile" : "target-CoreLayer-Debug-17d3c417b602425f52a7.json",
+					"name" : "CoreLayer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "HuaRenderer::@57b87f9a22a0a242af92",
+					"jsonFile" : "target-HuaRenderer-Debug-43d8d0f2894217618155.json",
+					"name" : "HuaRenderer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "PresentationLayer::@4ac9b1157531603587a6",
+					"jsonFile" : "target-PresentationLayer-Debug-c1ea1350daf67858ff54.json",
+					"name" : "PresentationLayer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "RenderingLayer::@dd5595ab7cd71472d54d",
+					"jsonFile" : "target-RenderingLayer-Debug-e51369afd5f37b3a99d7.json",
+					"name" : "RenderingLayer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "test_SoftwareRasterizer::@d46a13ab00d5fbe55e4a",
+					"jsonFile" : "target-test_SoftwareRasterizer-Debug-5f51e4899856518be4fb.json",
+					"name" : "test_SoftwareRasterizer",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Doc/ProjectFiles/CPP/HuaRenderer/build",
+		"source" : "E:/Doc/ProjectFiles/CPP/HuaRenderer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

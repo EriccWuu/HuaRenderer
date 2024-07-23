@@ -1,0 +1,243 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/test_SoftwareRasterizer.exe"
+		},
+		{
+			"path" : "bin/test_SoftwareRasterizer.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"renderer/test/CMakeLists.txt",
+			"renderer/src/RenderingLayer/CMakeLists.txt",
+			"renderer/3rdparty/SDL2-2.30.4/x86_64-w64-mingw32/lib/cmake/SDL2/sdl2-config.cmake",
+			"renderer/3rdparty/SDL2-2.30.4/cmake/sdl2-config.cmake",
+			"renderer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 3
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 14,
+				"parent" : 5
+			},
+			{
+				"file" : 3,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 19,
+				"parent" : 7
+			},
+			{
+				"file" : 2,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 119,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 10,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 11,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -O3 -g -std=gnu++20"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "E:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "E:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/src"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "E:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/test/HuaRenderer"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/Doc/ProjectFiles/CPP/HuaRenderer/renderer/3rdparty/SDL2-2.30.4/x86_64-w64-mingw32/include/SDL2"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "RenderingLayer::@dd5595ab7cd71472d54d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "CoreLayer::@1fb3b23c8a770eb28075"
+		}
+	],
+	"id" : "test_SoftwareRasterizer::@d46a13ab00d5fbe55e4a",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--undefined=WinMain",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LE:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\3rdparty\\SDL2-2.30.4\\x86_64-w64-mingw32\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "renderer\\src\\RenderingLayer\\libRenderingLayer.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\3rdparty\\SDL2-2.30.4\\x86_64-w64-mingw32\\lib\\libSDL2main.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "E:\\Doc\\ProjectFiles\\CPP\\HuaRenderer\\renderer\\3rdparty\\SDL2-2.30.4\\x86_64-w64-mingw32\\lib\\libSDL2.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "renderer\\src\\CoreLayer\\libCoreLayer.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "-mconsole",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "test_SoftwareRasterizer",
+	"nameOnDisk" : "test_SoftwareRasterizer.exe",
+	"paths" : 
+	{
+		"build" : "renderer/test",
+		"source" : "renderer/test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "renderer/test/test_SoftwareRasterizer.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
